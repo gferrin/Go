@@ -1,0 +1,85 @@
+/*
+html
+{
+	background:grey;
+}
+
+#board
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background-color: white;
+	width: 800px;
+	height: 1000px;
+}
+*/
+#boardContainer
+{
+	position: absolute;
+	display: block;
+	background-color: #ffaa44;
+	margin-top: 30px;
+	margin-left: 100px;
+	width: 100%;
+	height: 100%;
+}
+
+.boardGrid
+{
+	position: absolute;
+	border-collapse:collapse;
+	border:1px solid black;
+}
+
+.boardGrid td
+{
+    margin:0;
+    padding:0;
+    border:1px solid black;
+}
+
+.boardGrid th
+{
+	border:1px solid black;
+}
+/* this allows for an acurate reading for mouse events */
+#boardOverlay
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	cursor:crosshair;
+}
+/* Turns anything with a class circle into a circle */
+.circle 
+{
+	border-radius: 50%;
+}
+
+.boardDot
+{
+	position: absolute;
+	display: block;
+	background-color: black;
+}
+#boardLastMoveSymbol 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#boardStoneContainer
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
