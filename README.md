@@ -1,3 +1,5 @@
-This is the game of [Go](https://en.wikipedia.org/wiki/Go_(game) ) impleneted in javascript
+This is the game of Go impleneted in javascript
 
 To run open `game.html` in browser 
+
+![go board](https://github.com/gferrin/Go/blob/master/img/board.png)
