@@ -1,4 +1,4 @@
-This is the game of Go impleneted in javascript
+This is the game of [Go](https://en.wikipedia.org/wiki/Go_\(board_game\)) impleneted in javascript
 
 To run open `game.html` in browser 
 
